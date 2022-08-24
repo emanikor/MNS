@@ -1,0 +1,335 @@
+@import url(https://kit.fontawesome.com/dd06602d3d.js);
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    height: 100vh;
+    max-width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+    
+}
+nav{
+  text-align: center;
+  display: flex;
+  padding: 2% 6%;
+}
+.nav-links{
+  display: center;
+  text-align: center;
+
+  margin-left: 4rem ;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  padding:8px 12px;
+  text-decoration: none;
+  margin-top: 5px;
+  
+}
+.nav-links ul li a{
+  font-family: 'Source Sans 3';
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+line-height: 23px;
+/* identical to box height */
+text-decoration: none;
+
+color: #004D7B;
+
+}
+.nav img{
+  width: 30px;
+  height: 25px;
+}
+.intro img{
+  margin-left: 50rem;
+  margin-top:10px;
+}
+.utra{
+ display:flex;
+
+}
+.utra img{
+    margin-left: 600px;
+    width: 594px;
+    height: 502px;
+     margin-top: 30px;
+}
+.utra p{
+  text-align: center;
+  margin-left: 80px;
+  position: absolute;
+width: 502px;
+height: 153px;
+
+top: 200px;
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 51px;
+
+color: #004D7B;
+}
+
+.card1{
+
+  background: #DDC80A;
+  width: 195px;
+  height: 154px;
+  display: flex;
+  margin-left: 93px;
+  float: left;
+  flex-direction: row;
+  border-radius: 10px;
+  text-align: center;
+}
+.card2{
+  background: #EB5757;
+  width: 195px;
+  height: 154px;
+  display: flex;
+  margin-left: 32px;
+  margin-bottom: 10px;
+  float: left;
+  flex-direction: row;
+  border-radius: 10px;
+  text-align: center;
+}
+.card3{
+  background: #8C4BE0;
+  width: 195px;
+  height: 154px;
+  display: flex;
+  margin-left: 32px;
+  margin-bottom: 10px;
+  float: left;
+  flex-direction: row;
+  border-radius: 10px;
+  text-align: center;
+}
+.card4{
+  background: #8BC34A;
+  width: 195px;
+  height: 154px;;
+  display: flex;
+  margin-left: 32px;
+  margin-bottom: 10px;
+  float: left;
+  flex-direction: row;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+.card1 p{
+  margin-top: 5rem;
+  margin-left: 1rem;
+  color:white;
+
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+.card2 p{
+  margin-top: 5rem;
+  margin-left: 1rem;
+  color:white;
+
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+.card3 p{
+  margin-top: 5rem;
+  margin-left: 1rem;
+  color:white;
+ 
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+.card4 p{
+  margin-top: 5rem;
+  margin-left: 1rem;
+  color:white;
+  position: absolute;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+
+
+.cards{
+  display: flex;
+  float: left;
+  margin-top: 0%;
+}
+.cards1{
+  align-items: flex-start;
+   margin-left: 5rem;
+   margin-top: 40px;
+}
+
+.cards2{
+  
+  align-items: flex-start;
+  margin-top: 40px;
+  margin-left:20px;
+  
+}
+.news{
+  margin-top: 200px;
+  margin-left: 100px;
+  color: #004D7B;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  font-weight: 200;
+  font-style: normal;
+
+}
+.cards3{
+
+  align-items: flex-start;
+  margin-top: 40px;
+  margin-left:20px;
+  height: 100px;
+  
+}
+.history{
+ margin: 5rem;
+ flex: 1;
+ display: flex; 
+ margin-top: 570px;
+}
+.history p{
+  margin-left: 133px;
+  
+
+width: 575px;
+height: 108px;
+left: 642px;
+margin-top: 69px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
+color: #686868;
+
+}
+
+
+.history img{
+  width: 415px;
+  height: 411px;
+  
+}
+.history button{
+  display: flex;
+ flex-direction: row;
+ justify-content: center;
+  align-items: center;
+ padding: 10px 20px;
+ gap: 12px;
+ position: absolute;
+width: 200px;
+height: 35px;
+left: 630px;
+top: 1702px;
+background: #8BC34A;
+border-radius: 8px;
+margin-top: 200px;
+color: white;
+}
+
+.tab-titles{
+  display: flex;
+  margin:20px 0 50px;
+  padding: 4px 10px;
+  margin-left:70px;
+}
+.tab-links{
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  padding-right: 90px;
+  color: #004D7B;
+}
+.tab-links::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background-color:#004D7B;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+.tab-links.active-link::after{
+  width: 30%;
+}
+.tab-content ul li{
+  margin-left: 80px;
+  list-style: none;
+}
+.tab-content ul li span{
+  color: #004D7B;
+  font-size: 15px;
+}
+.tab-content{
+  display: none;
+}
+.tab-content.active-tab{
+  display: block;
+}
+
+@media(max-width:700px){
+  nav{
+    display: block;
+} 
+nav ul{
+   background-color: #f7f7f7;
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 250px;
+   height: 100vh;
+   padding-top: 50px ;
+   transition: 0.5sec;
+}
+
+  
+
+}

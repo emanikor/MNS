@@ -48,7 +48,8 @@
 <p>Three decades of Proven Public<br>
    Private Partnership model for<br>
     trade and business facilitation<br> </p>
-    <img src="img/pixel.png" alt="">
+    <img src="img/pixel.png" alt="" style="width: 594px;
+    height: 502px;">
    </div>
    <div class="card">
    <div class="card1">
@@ -91,19 +92,13 @@
    
    <div class="cards1">
            
-
          <img src="img/Ecertificate.png" alt="">
-         <p>TradeLink Single Window</p>
-         <p>Single Window to submit application for <br>
-            permits for import/export processing and <br>clearance</p>
-      
-
    </div>
       
    <div class="cards2">
       <div class="container">
         
-         <img src="img/Ecertificate.png" alt="">
+         <img src="img/dom.png" alt="">
 
       </div>
 
@@ -112,27 +107,114 @@
    <div class="cards3">
       <div class="container">
         
-         <img src="img/Ecertificate.png" alt="">
+         <img src="img/trade.png" alt="" >
       </div>
    </div>
 </div>
      </div>
    </section>
+
    <section id=history>
-      <div>
-      <h3>Our History and Main Stakeholders</h3>
-      </div>
+ 
       <div class=history>
+        
         <img src="img/nappy.png" alt="nappy image">
 
-        <p>Mauritius Network Services Limited was incorporated in 1994 on <br>a public private partnership and has evolved over the years to<br> be a trusted partner to Government, Businesses and Citizens<br> for trade and business facilitation. <br>
+        <h2 style="position: absolute; margin-left: 545px; font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 45px;
+        /* identical to box height */
+        margin-top: 10px;
+        
+        color: #004D7B;">Our History and Main Stakeholders</h2>
+        <p> Mauritius Network Services Limited was incorporated in 1994 on <br>a public private partnership and has evolved over the years to<br> be a trusted partner to Government, Businesses and Citizens<br> for trade and business facilitation. <br>
+         <br>
          <br><br>
-         <br><br>
-         <br>Want to know about our greatest achievements? </p><br><br><br>
-         <a href="product.html"><button style="">Our Product Roadmap</button></a> 
-
+         
+        <span style="color:black;">Want to know about our greatest achievements?</span> </p><br><br><br></div>
+         <a href="product.html"><button style=" display: flex;
+            flex-direction: row;
+            justify-content: center;
+             align-items: center;
+            padding: 10px 20px;
+            gap: 12px;
+            position: absolute;
+           width: 200px;
+           height: 35px;
+           left: 630px;
+           top: 1702px;
+           background: #8BC34A;
+           border-radius: 8px;
+           margin-top: 200px;
+           color: white;">Our Product Roadmap</button></a> 
       </div>
-      
    </section>
+   <!---services-->
+   <section id="services" >
+      <h1 style="margin-left:85px;color: #004D7B;">Our Best Services</h1>
+     <div class="tab-titles">
+      <p class="tab-links active-link" onclick="opentab('E-Trade')">E-Trade</p>
+      <p class="tab-links" onclick="opentab('Business Registration')">Business Registration</p>
+      <p class="tab-links" onclick="opentab('E-Tax-Filling')">E-Tax-Filling</p>
+     </div>
+     <div class="tab-content active-tab" id="E-Trade">
+      <ul>
+         <li>
+            ui/ux<br><span>web design web/App interfaces</span>
+         </li>
+         <li>
+            ui/ux<br><span>web design web/App interfaces</span>
+         </li>
+         <li>
+         ui/ux<br><span>web design web/App interfaces</span>
+         </li>
+      </ul>
+
+     </div>
+     <div class="tab-content" id="Business Registration">
+      <ul>
+         <li>
+            ui/ux<br><span>web design web/App interfaces</span>
+         </li>
+         <li>
+            ui/ux<br><span>web design web/App interfaces</span>
+         </li>
+         <li>
+         ui/ux<br><span>web design web/App interfaces</span>
+         </li>
+      </ul>
+
+     </div>
+     <div class="tab-content" id="E-Tax-Filling">
+      <ul>
+         <li>
+            ui/ux<br><span>web design web/App interfaces</span>
+         </li>
+         <li>
+            ui/ux<br><span>web design web/App interfaces</span>
+         </li>
+         <li>
+         ui/ux<br><span>web design web/App interfaces</span>
+         </li>
+      </ul>
+
+     </div>
+     </div>
+   </section>
+   <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+         for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+         }
+         for(tabcontents of tabcontents){
+            tabcontents.classList.remove("active-tab");
+         }
+      }
+   </script>
 </body>
 </html>
