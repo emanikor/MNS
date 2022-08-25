@@ -300,21 +300,78 @@ color: white;
 .tab-links.active-link::after{
   width: 30%;
 }
-.tab-content ul li{
+.tab-contents ul li{
   margin-left: 80px;
   list-style: none;
 }
-.tab-content ul li span{
+.tab-contents ul li span{
   color: #004D7B;
   font-size: 15px;
 }
-.tab-content{
+.tab-contents{
   display: none;
 }
-.tab-content.active-tab{
+.tab-contents.active-tab{
   display: block;
 }
+.exe{
+  margin-left:100px; 
+  margin-top:100px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height */
 
+
+color: #004D7B;
+
+}
+.card001{
+  position: absolute;
+width: 1247px;
+height: 406px;
+left: 58px;
+margin-top:10px;
+border-radius:20px;
+background: #004D7B;
+}
+.fa-solid fa-arrows-left-right{
+  color: black;
+  display: block;
+  margin-left: 80px;
+}
+.soft{
+  margin-top: 203px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+color: #C4C4C4;
+position: absolute;
+width: 242px;
+height: 120px;
+left: 110px;
+
+}
+.custom{
+  position: absolute;
+width: 166px;
+height: 54px;
+left: 110px;
+top: 130px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
+color: #FCFCFC;
+}
 @media(max-width:700px){
   nav{
     display: block;
