@@ -318,6 +318,19 @@ color: white;
 .tab-contents.active-tab{
   display: block;
 }
+.card11{
+margin-right: 10000px;
+height: 244px;
+margin-left: 94px;
+margin-top: 42px;
+display: flex;
+
+background: url(Ecertificate-1024x1024.jpg);
+border-radius: 10px 10px 0px 0px;
+}
+.container{
+  display: flex;
+}
 .exe{
   margin-left:100px; 
   margin-top:100px;
