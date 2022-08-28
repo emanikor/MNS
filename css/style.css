@@ -13,12 +13,15 @@
     background-size: cover;
     position: relative;
     justify-content: center;
+  
+    
     
 }
 nav{
   text-align: center;
   display: flex;
   padding: 2% 6%;
+  
 }
 .nav-links{
   display: center;
@@ -34,6 +37,7 @@ nav{
   text-decoration: none;
   margin-top: 5px;
   
+  
 }
 .nav-links ul li a{
   font-family: 'Source Sans 3';
@@ -43,7 +47,7 @@ font-size: 16px;
 line-height: 23px;
 /* identical to box height */
 text-decoration: none;
-
+ width: 170px;
 color: #004D7B;
 
 }
@@ -314,6 +318,19 @@ color: white;
 .tab-contents.active-tab{
   display: block;
 }
+.card11{
+margin-right: 10000px;
+height: 244px;
+margin-left: 94px;
+margin-top: 42px;
+display: flex;
+
+background: url(Ecertificate-1024x1024.jpg);
+border-radius: 10px 10px 0px 0px;
+}
+.container{
+  display: flex;
+}
 .exe{
   margin-left:100px; 
   margin-top:100px;
@@ -372,12 +389,181 @@ line-height: 27px;
 
 color: #FCFCFC;
 }
+.fast{
+  position: absolute;
+  width: 218px;
+  height: 54px;
+  left: 409px;
+  top: 130px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  
+  color: #FCFCFC;
+}
+.ease{
+  position: absolute;
+width: 242px;
+height: 120px;
+left: 409px;
+top: 203px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+color: #C4C4C4;
+
+}
+.scalable{
+  position: absolute;
+  width: 207px;
+  height: 54px;
+  left: 708px;
+  top: 130px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  
+  color: #FCFCFC;
+  
+}
+.sky{
+  position: absolute;
+width: 242px;
+height: 96px;
+left: 708px;
+top: 203px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+color: #C4C4C4;
+}
+.security{
+  position: absolute;
+width: 202px;
+height: 27px;
+left: 1007px;
+top: 130px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+color: #FCFCFC;
+}
+.clients{
+  position: absolute;
+width: 242px;
+height: 120px;
+left: 1007px;
+top: 203px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+color: #C4C4C4;
+
+}
+.tools{
+  position: absolute;
+width: 426px;
+height: 90px;
+left: 106px;
+top: 2960px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+
+color: #004D7B;
+
+}
+.icons{
+  position: absolute;
+
+height: 64px;
+left: 106px;
+top: 3100px;
+display: flex;
+margin-left: 20px;
+justify-content: space-between;
+}
+.rect{
+  position: absolute;
+width: 1247px;
+height: 622px;
+left: 58px;
+top: 3200px;
+background-image: url("map.png");
+background-image: linear-gradient(270deg, #004D7B 45.79%, rgba(0, 77, 123, 0.51) 98.56%),url("map.png");
+border-radius: 20px;
+}
+.card05{
+  position: absolute;
+width: 270px;
+height: 192px;
+left: 605px;
+top: 70px;
+
+background: #25658B;
+border-radius: 10px;
+}
+.card06{
+  position: absolute;
+width: 270px;
+height: 192px;
+left: 945px;
+top: 70px;
+
+background: #8BC34A;
+border-radius: 10px;
+}
+.card07{
+  position: absolute;
+width: 270px;
+height: 231px;
+left: 605px;
+top: 293px;
+
+background: #DDC80A;
+border-radius: 10px;
+}
+.card08{
+  position: absolute;
+width: 270px;
+height: 231px;
+left: 945px;
+top: 293px;
+
+background: #8C4BE0;
+border-radius: 10px;
+}
 @media(max-width:700px){
   nav{
     display: block;
 } 
 nav ul{
-   background-color: #f7f7f7;
+   background-color: #141313;
    position: absolute;
    top: 0;
    right: 0;
