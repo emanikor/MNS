@@ -577,6 +577,123 @@ top: 293px;
 background: #8C4BE0;
 border-radius: 10px;
 }
+.footer{
+  margin-top:1500px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 106px;
+}
+.footer ul {
+  position: absolute;
+ 
+height: 192px;
+left: 440px;
+margin-top: 50px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+list-style: none;
+color: #686868;
+
+}
+.footer p{
+  position: absolute;
+width: 132px;
+height: 24px;
+margin-left: 332px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+margin-top:0px;
+color: #004D7B;
+}
+.footer img{
+  position: absolute;
+width: 219.92px;
+height: 91px;
+left: 106px;
+background: url(MNSLogo.png);
+}
+.font{
+size: 30px;
+width:30px;
+height: 25px;
+color: #004D7B;
+background-color: #004D7B;
+position: absolute;
+
+}
+.connect a{
+  position: absolute;
+width: 69px;
+height: 24px;
+left: 1138px;
+margin-top: 50px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #004D7B;
+}
+.navigation ul{
+  position: absolute;
+width: 254px;
+height: 144px;
+left: 824px;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #686868;
+}
+.navigation ul li a{
+color: #686868;
+text-decoration: none;
+}
+.navigation p {
+  position: absolute;
+  width: 89px;
+  height: 24px;
+  left: 489px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  
+  
+  color: #004D7B;
+  
+}
+.connect p{
+  position: absolute;
+width: 69px;
+height: 24px;
+margin-left:1030px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #004D7B;
+}
 @media(max-width:700px){
   nav{
     display: block;
