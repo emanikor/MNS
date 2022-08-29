@@ -619,9 +619,33 @@ color: #004D7B;
 width: 219.92px;
 height: 91px;
 left: 106px;
-
-
 background: url(MNSLogo.png);
+}
+.font{
+size: 30px;
+width:30px;
+height: 25px;
+color: #004D7B;
+background-color: #004D7B;
+position: absolute;
+
+}
+.connect a{
+  position: absolute;
+width: 69px;
+height: 24px;
+left: 1138px;
+margin-top: 50px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #004D7B;
 }
 .navigation ul{
   position: absolute;
@@ -654,6 +678,21 @@ text-decoration: none;
   
   color: #004D7B;
   
+}
+.connect p{
+  position: absolute;
+width: 69px;
+height: 24px;
+margin-left:1030px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #004D7B;
 }
 @media(max-width:700px){
   nav{
