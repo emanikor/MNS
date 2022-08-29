@@ -277,7 +277,7 @@ color: white;
 
 .tab-titles{
   display: flex;
-  margin:20px 0 50px;
+  margin:20px 0 2px;
   padding: 4px 10px;
   margin-left:70px;
 }
@@ -319,14 +319,34 @@ color: white;
   display: block;
 }
 .card11{
-margin-right: 10000px;
 height: 244px;
 margin-left: 94px;
 margin-top: 42px;
 display: flex;
+flex:3;
+margin-bottom: 10px;
+background: url(Ecertificate-1024x1024.jpg);
+border-radius: 10px 10px 0px 0px;
+}
+.card12{
+  height: 244px;
+margin-left: 94px;
+margin-top: 42px;
+display: flex;
+flex:3;
 
 background: url(Ecertificate-1024x1024.jpg);
 border-radius: 10px 10px 0px 0px;
+}
+.card13{
+  height: 244px;
+  margin-left: 94px;
+  margin-top: 42px;
+  display: flex;
+  flex:3;
+  
+  background: url(Ecertificate-1024x1024.jpg);
+  border-radius: 10px 10px 0px 0px;
 }
 .container{
   display: flex;
@@ -486,9 +506,8 @@ color: #C4C4C4;
   position: absolute;
 width: 426px;
 height: 90px;
-left: 106px;
-top: 2960px;
-
+left: 120px;
+margin-top: 200px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -500,10 +519,10 @@ color: #004D7B;
 }
 .icons{
   position: absolute;
-
+margin-top: 330px;
 height: 64px;
-left: 106px;
-top: 3100px;
+left: 90px;
+
 display: flex;
 margin-left: 20px;
 justify-content: space-between;
@@ -513,7 +532,7 @@ justify-content: space-between;
 width: 1247px;
 height: 622px;
 left: 58px;
-top: 3200px;
+margin-top:400px;
 background-image: url("map.png");
 background-image: linear-gradient(270deg, #004D7B 45.79%, rgba(0, 77, 123, 0.51) 98.56%),url("map.png");
 border-radius: 20px;
