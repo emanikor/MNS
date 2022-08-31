@@ -90,6 +90,14 @@ line-height: 51px;
 
 color: #004D7B;
 }
+.exart{
+  position: absolute;
+   margin-left: 300px;
+  top: 3px;
+  width: 30px;
+  height: 20px;
+ 
+}
 
 
 .svg3{
@@ -530,7 +538,7 @@ background: #004D7B;
   margin-left: 80px;
 }
 .para{
-  width: 1366px;
+  width: 1583px;
 height: 46px;
 }
 .soft{
