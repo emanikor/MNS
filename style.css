@@ -5,6 +5,9 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+  height: 50vw;
+}
 .header{
     height: 100vh;
     max-width: 100%;
@@ -13,9 +16,6 @@
     background-size: cover;
     position: relative;
     justify-content: center;
-  
-    
-    
 }
 nav{
   text-align: center;
@@ -35,6 +35,7 @@ nav{
   position: relative;
   padding:8px 12px;
   text-decoration: none;
+  
   margin-top: 5px;
   
   
@@ -49,6 +50,8 @@ line-height: 23px;
 text-decoration: none;
  width: 170px;
 color: #004D7B;
+width: 59px;
+
 
 }
 .nav img{
@@ -68,6 +71,7 @@ color: #004D7B;
     width: 594px;
     height: 502px;
      margin-top: 30px;
+     position: absolute;
 }
 .utra p{
   text-align: center;
@@ -87,63 +91,77 @@ line-height: 51px;
 color: #004D7B;
 }
 
+
+.svg3{
+  width: 30px;
+  position: absolute;
+left: 410px;
+
+top: 62px;
+bottom: 3.12%;
+
+color: #59F046;
+}
+.infinity{
+  width: 30px;
+  position: absolute;
+left: 710px;
+
+top: 62px;
+bottom: 3.12%;
+color: #59F046;
+}
+
 .card1{
 
-  background: #DDC80A;
+  position: absolute;
   width: 195px;
   height: 154px;
-  display: flex;
-  margin-left: 93px;
-  float: left;
-  flex-direction: row;
+  left: 93px;
+  top: 469px;
+  
+  background: #DDC80A;
   border-radius: 10px;
-  text-align: center;
+ 
 }
 .card2{
-  background: #EB5757;
-  width: 195px;
-  height: 154px;
-  display: flex;
-  margin-left: 32px;
-  margin-bottom: 10px;
-  float: left;
-  flex-direction: row;
-  border-radius: 10px;
-  text-align: center;
+  position: absolute;
+width: 195px;
+height: 154px;
+left: 320px;
+top: 469px;
+
+background: #EB5757;
+border-radius: 10px;
+  
 }
 .card3{
-  background: #8C4BE0;
+
+  position: absolute;
   width: 195px;
   height: 154px;
-  display: flex;
-  margin-left: 32px;
-  margin-bottom: 10px;
-  float: left;
-  flex-direction: row;
+  left: 547px;
+  top: 469px;
+  
+  background: #8C4BE0;
   border-radius: 10px;
-  text-align: center;
 }
 .card4{
-  background: #8BC34A;
+  position: absolute;
   width: 195px;
-  height: 154px;;
-  display: flex;
-  margin-left: 32px;
-  margin-bottom: 10px;
-  float: left;
-  flex-direction: row;
-  border-radius: 10px;
-  text-align: center;
+  height: 154px;
+  left: 774px;
+  top: 469px;
   
+  background: #8BC34A;
+  border-radius: 10px;
+ 
 }
 .card1 p{
   margin-top: 5rem;
   margin-left: 1rem;
   color:white;
-
-
-
-font-family: 'Poppins';
+ font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -153,9 +171,6 @@ line-height: 24px;
   margin-top: 5rem;
   margin-left: 1rem;
   color:white;
-
-
-
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -166,9 +181,6 @@ line-height: 24px;
   margin-top: 5rem;
   margin-left: 1rem;
   color:white;
- 
-
-
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -180,16 +192,12 @@ line-height: 24px;
   margin-left: 1rem;
   color:white;
   position: absolute;
-
-
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 }
-
-
 .cards{
   display: flex;
   float: left;
@@ -200,6 +208,38 @@ line-height: 24px;
    margin-left: 5rem;
    margin-top: 40px;
 }
+.cards1 p{
+  position: absolute;
+width: 344px;
+height: 72px;
+left: 109px;
+top: 1139px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #C2C2C2;
+
+}
+.Tradelink{
+  position: absolute;
+width: 250px;
+height: 30px;
+left: 109px;
+top: 1098px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #FCFCFC;
+}
 
 .cards2{
   
@@ -208,14 +248,81 @@ line-height: 24px;
   margin-left:20px;
   
 }
+.cards2 p{
+  position: absolute;
+width: 344px;
+height: 72px;
+left: 509px;
+top: 1139px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #C2C2C2;
+}
+.E{
+  position: absolute;
+width: 226px;
+height: 30px;
+left: 509px;
+top: 1098px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #FCFCFC;
+
+}
 .news{
-  margin-top: 200px;
-  margin-left: 100px;
-  color: #004D7B;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 13px;
-  font-weight: 200;
-  font-style: normal;
+  position: absolute;
+width: 376px;
+height: 433px;
+left: 894px;
+top: 838px;
+
+}
+.read{
+  position: absolute;
+width: 153px;
+height: 24px;
+left: 1088px;
+top: 774px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+color: #034269;
+}
+.anouncement{
+  position: absolute;
+width: 408px;
+height: 45px;
+left: 94px;
+top: 763px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height */
+
+
+color: #004D7B;
+ 
 
 }
 .cards3{
@@ -226,6 +333,40 @@ line-height: 24px;
   height: 100px;
   
 }
+.cards3 p{
+  position: absolute;
+width: 344px;
+height: 96px;
+left: 909px;
+top: 1139px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #C2C2C2;
+
+}
+.tradeNet{
+  
+position: absolute;
+width: 246px;
+height: 30px;
+left: 909px;
+top: 1098px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #FCFCFC;
+}
 .history{
  margin: 5rem;
  flex: 1;
@@ -234,27 +375,20 @@ line-height: 24px;
 }
 .history p{
   margin-left: 133px;
-  
-
-width: 575px;
-height: 108px;
-left: 642px;
-margin-top: 69px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 27px;
-
-color: #686868;
-
+ width: 575px;
+ height: 108px;
+ left: 642px;
+ margin-top: 69px;
+ font-family: 'Poppins';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 18px;
+ line-height: 27px;
+ color: #686868;
 }
-
-
 .history img{
   width: 415px;
-  height: 411px;
+        height: 415px;
   
 }
 .history button{
@@ -274,7 +408,6 @@ border-radius: 8px;
 margin-top: 200px;
 color: white;
 }
-
 .tab-titles{
   display: flex;
   margin:20px 0 2px;
@@ -317,6 +450,23 @@ color: white;
 }
 .tab-contents.active-tab{
   display: block;
+}
+.diagram{
+  position: absolute;
+left: 20px;
+right: 100px;
+top: 15px;
+
+width: 15px;
+
+}
+.diag{
+  position: absolute;
+  margin-left: 1px;
+  right: 50px;
+  top: 15px;
+  
+  width: 15px;
 }
 .card11{
 height: 244px;
@@ -378,6 +528,10 @@ background: #004D7B;
   color: black;
   display: block;
   margin-left: 80px;
+}
+.para{
+  width: 1366px;
+height: 46px;
 }
 .soft{
   margin-top: 203px;
@@ -446,15 +600,12 @@ color: #C4C4C4;
   height: 54px;
   left: 708px;
   top: 130px;
-  
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
-  
   color: #FCFCFC;
-  
 }
 .sky{
   position: absolute;
@@ -589,7 +740,6 @@ border-radius: 10px;
 height: 192px;
 left: 440px;
 margin-top: 50px;
-
 font-family: 'Source Sans Pro';
 font-style: normal;
 font-weight: 400;
@@ -693,6 +843,39 @@ line-height: 24px;
 
 
 color: #004D7B;
+}
+.netw{
+  position: absolute;
+width: 1247px;
+height: 0px;
+left: 58px;
+margin-top: 300px;
+
+border: 1px solid #C4C4C4;
+}
+.netw p{
+  position: absolute;
+margin: 15px;
+height: 24px;
+left: 106px;
+
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+color: #828282;
+
+}
+.search{
+  width:30px;
+  height: 25px;
+  margin-top:20px;
+  margin-left: 40px;
 }
 @media(max-width:700px){
   nav{
